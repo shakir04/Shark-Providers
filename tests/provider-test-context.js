@@ -5,7 +5,7 @@ const path = require("path");
 
 const rootDir = path.join(__dirname, "..");
 const urlsEndpoint =
-  "https://raw.githubusercontent.com/Zenda-Cross/vega-providers/refs/heads/main/urls.json";
+  "https://raw.githubusercontent.com/shakir04/Shark-Providers/refs/heads/main/urls.json";
 const nativeFetch = global.fetch;
 
 global.fetch = async (input, init) => {
